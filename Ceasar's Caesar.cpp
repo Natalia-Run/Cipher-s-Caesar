@@ -5,14 +5,14 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	const int k = 2;
 	const int n = 33;
-	char string[] = "Булочка"
-		"с"
-		"корицей"
-		"лежит"
-		"на"
-		"самой"
-		"верхней"
-		"полке";
+	char string[] = "Булочка "
+		"с "
+		"корицей "
+		"лежит "
+		"на "
+		"самой "
+		"верхней "
+		"полке ";
 	cout << string << endl;
 	for (int i = 0; i < strlen(string); i++)
 	{
