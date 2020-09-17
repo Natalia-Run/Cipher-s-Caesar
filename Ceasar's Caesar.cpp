@@ -13,16 +13,16 @@ int main()
 		"самой"
 		"верхней"
 		"полке";
-	cout << string;
+	cout << string << endl;
 	for (int i = 0; i < strlen(string); i++)
 	{
 		string[i] = (string[i] + k) % (n + __toascii('А'));
 	}
-	cout << string;
+	cout << string << endl;
 	for (int i = 0; i < strlen(string); i++)
 	{
 		string[i] = (string[i] - k - (n + __toascii('А'))) % (n + __toascii('А'));
 	}
-	cout << string;
+	cout << string << endl;
 	return 0;
 }
