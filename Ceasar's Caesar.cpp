@@ -13,16 +13,19 @@ int main()
 		"самой "
 		"верхней "
 		"полке ";
+	cout << "Строка до шифрования:" << endl;
 	cout << string << endl;
 	for (int i = 0; i < strlen(string); i++)
 	{
 		string[i] = (string[i] + k) % (n + __toascii('А'));
 	}
+	cout << "Строка после шифрования:" << endl;
 	cout << string << endl;
 	for (int i = 0; i < strlen(string); i++)
 	{
 		string[i] = (string[i] - k - (n + __toascii('А'))) % (n + __toascii('А'));
 	}
+	cout << "Расшифрованная строка:" << endl;
 	cout << string << endl;
 	return 0;
 }
